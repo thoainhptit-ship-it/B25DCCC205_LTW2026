@@ -34,3 +34,10 @@ th { background: #f3f3f3; }
 .ladder li { padding: 8px 14px; border-bottom: 1px solid #eee; }
 .ladder li.milestone { font-weight: bold; }
 .ladder li.active { background: gold; }
+
+.lifelines { display: flex; gap: 12px; margin: 12px 0; flex-wrap: wrap; }
+.lifelines button:disabled { opacity: 0.5; cursor: not-allowed; }
+.answer.gone { visibility: hidden; }
+.audience { margin-top: 20px; border: 1px solid #ccc; padding: 12px; }
+.audience-bar { background: #64b5f6; height: 32px; line-height: 32px; margin-bottom: 8px; white-space: nowrap; color: #000; }
+.record { font-weight: bold; color: #b8860b; }
